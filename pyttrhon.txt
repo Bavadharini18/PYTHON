@@ -1,0 +1,13 @@
+
+n = int(input("Enter a number: "))
+
+second = 1
+first = 1
+
+while first <= n:
+    for i in range(first):
+        print(first, end=" ")
+    print()
+    temp = first
+    first = first + second
+    second = temp
